@@ -214,10 +214,21 @@ html body {
                 margin-bottom: 30px;
               }
             }
-            .recent-post-thumbnail img {
-              width: unset !important;
-              height: unset !important;
-              max-height: 700px;
+            .recent-post-thumbnail {
+              overflow: hidden;
+              a {
+                display: block;
+                img {
+                  width: unset !important;
+                  height: unset !important;
+                  max-height: 700px;
+                  transition: 0.75s;
+                }
+                &:hover img {
+                  transform: scale(1.1);
+                  filter: brightness(0.5);
+                }
+              }
             }
           }
         }

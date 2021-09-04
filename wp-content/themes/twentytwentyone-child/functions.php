@@ -62,7 +62,7 @@ function recent_posts_shortcode($atts, $content = null) {
 
             </div>
             <div class="recent-post-thumbnail">
-            '.get_the_post_thumbnail().'
+            <a href="'.get_the_permalink().'">'.get_the_post_thumbnail().'</a>
             </div>
         </div>';
 		
