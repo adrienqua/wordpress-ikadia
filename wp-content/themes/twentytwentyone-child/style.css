@@ -1,0 +1,597 @@
+/*
+ Theme Name:   21 child
+ Template:     twentytwentyone
+*/
+:root {
+  --global--font-size-xxl: 4rem !important;
+  --responsive--aligndefault-width: 100% !important;
+  --global--font-primary: "Roboto" !important;
+}
+
+html body {
+  background-color: #eeeeee;
+  overflow-x: hidden;
+}
+
+html body #main {
+  padding: 0;
+}
+
+html body p {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+html body .entry-content {
+  margin: 0;
+}
+
+html body .entry-footer {
+  text-align: center;
+  padding: 5px 0 !important;
+  margin: 0 !important;
+  background-color: #11749e;
+  color: #fff;
+}
+
+html body .elementor-section-wrap p {
+  color: #fff !important;
+}
+
+html body .elementor-section-wrap .elementor-widget-heading .elementor-heading-title {
+  color: #fff;
+}
+
+html body .elementor-section-wrap .elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1200px;
+}
+
+html body .elementor-section-wrap .elementor-column-gap-default
+> .elementor-column
+> .elementor-element-populated {
+  padding: 15px;
+}
+
+html body .elementor-section-wrap .elementor-element-f336667 {
+  background: url(/wp-content/uploads/2021/09/header.jpg) center 0 no-repeat fixed;
+  min-height: 400px;
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0;
+}
+
+html body .elementor-section-wrap .elementor-element-f336667 h2 {
+  font-size: 152px;
+}
+
+html body .elementor-section-wrap .elementor-element-f336667 h3 {
+  color: #11749e !important;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 19px;
+  text-indent: 18px;
+}
+
+html body .elementor-section-wrap .elementor-element-f336667 p {
+  font-size: 13px;
+}
+
+html body .elementor-section-wrap .elementor-element-f336667 .elementor-icon {
+  color: #fff;
+  font-size: 28px;
+  padding: 18px;
+  border: solid 1px #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+html body .elementor-section-wrap .elementor-element-f336667 .elementor-icon:hover {
+  border: solid 1px transparent;
+  background-color: #0c5270;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+html body .elementor-section-wrap .elementor-element-f336667 .elementor-icon:focus {
+  background-color: #073042 !important;
+}
+
+html body .elementor-section-wrap .elementor-element-f336667 .elementor-icon i {
+  -webkit-animation: 0.8s bounceArrow infinite alternate ease-out;
+          animation: 0.8s bounceArrow infinite alternate ease-out;
+}
+
+html body .elementor-section-wrap .elementor-element-c53881c {
+  background-color: #11749e;
+  text-align: center;
+  padding: 100px 0;
+}
+
+html body .elementor-section-wrap .elementor-element-c53881c .elementor-element-e25eca2 .elementor-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .elementor-section-wrap .elementor-element-c53881c .elementor-element-e25eca2 .elementor-container .elementor-column {
+  max-width: 400px;
+}
+
+html body .elementor-section-wrap .elementor-element-c53881c .elementor-widget-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .elementor-section-wrap .elementor-element-c53881c .elementor-widget-image .elementor-widget-container {
+  background-color: #2e85aa;
+  width: 133px;
+  height: 133px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .elementor-section-wrap .elementor-element-c53881c .elementor-widget-image .elementor-widget-container img {
+  max-height: 36px;
+  width: auto !important;
+}
+
+html body .elementor-section-wrap .elementor-element-c53881c h2.elementor-heading-title::before {
+  content: "W";
+  font-size: 247px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.18;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+html body .elementor-section-wrap .elementor-element-c53881c h2 {
+  font-size: 37px;
+  text-transform: uppercase;
+  padding: 100px 0;
+}
+
+html body .elementor-section-wrap .elementor-element-c53881c h3 {
+  font-size: 18px;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 {
+  background-color: #222222;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 .elementor-column-gap-default
+> .elementor-column
+> .elementor-element-populated {
+  padding: 0 !important;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container {
+  max-width: 100% !important;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post:nth-child(2n) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  background-color: #fff;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post:nth-child(2n) .recent-post-content {
+  padding-left: 80px;
+  padding-right: calc(50vw - 570px);
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post:nth-child(2n) .recent-post-content p,
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post:nth-child(2n) .recent-post-content a,
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post:nth-child(2n) .recent-post-content h2 {
+  color: black !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post:nth-child(2n) .recent-post-content a:hover {
+  color: #11749e !important;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post .recent-post-content {
+  padding: 0 80px;
+  width: 50%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding-left: calc(50vw - 570px);
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post .recent-post-content ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post .recent-post-content a {
+  color: #fff;
+  font-family: "Roboto";
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post .recent-post-content a:hover {
+  color: #11749e;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post .recent-post-content p {
+  display: inline;
+  display: inline-block;
+  margin-bottom: 8px;
+  font-family: "Roboto";
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post .recent-post-content h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+html body .elementor-section-wrap .elementor-element-b411848 > .elementor-container .recent-posts .recent-post .recent-post-thumbnail img {
+  width: unset !important;
+  height: unset !important;
+  max-height: 700px;
+}
+
+html body .elementor-section-wrap .elementor-element-f9a63c5 {
+  background-color: #11749e;
+  padding: 120px 0;
+}
+
+html body .elementor-section-wrap .elementor-element-f9a63c5 .elementor-widget-wrap.elementor-element-populated {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+html body .elementor-section-wrap .elementor-element-f9a63c5 .elementor-widget-wrap.elementor-element-populated > div {
+  padding: 0 15px;
+}
+
+html body .elementor-section-wrap .elementor-element-f9a63c5 .elementor-widget-image {
+  width: unset;
+}
+
+html body .elementor-section-wrap .elementor-element-f9a63c5 .elementor-widget-image img {
+  max-width: 70px;
+  height: auto !important;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 {
+  background: url(/wp-content/uploads/2021/09/form-bg.jpg) center 0 no-repeat fixed;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 h2.elementor-heading-title::before {
+  content: "C";
+  font-size: 247px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.18;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 h2 {
+  font-size: 37px;
+  text-transform: uppercase;
+  padding: 100px 0;
+  text-align: center;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form br {
+  display: none;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form div {
+  color: #fff;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form p {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form p:last-of-type {
+  text-align: center;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .form-field {
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .form-field input {
+  height: 50px;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .form-field textarea {
+  height: 150px;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .form-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .form-input .form-field {
+  width: 31%;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .form-input .form-field input {
+  width: 100%;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap {
+  position: relative;
+  display: block;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap input,
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap textarea {
+  background-color: transparent;
+  border: solid 1px #fff;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-indent: 8px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap input::-webkit-input-placeholder,
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap textarea::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap input:-ms-input-placeholder,
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap textarea:-ms-input-placeholder {
+  opacity: 0;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap input::-ms-input-placeholder,
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap textarea::-ms-input-placeholder {
+  opacity: 0;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap input::placeholder,
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap textarea::placeholder {
+  opacity: 0;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap label {
+  position: absolute;
+  top: 11px;
+  left: 21px;
+  font-weight: 300;
+  font-size: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap:focus-within > label,
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap input:not(:placeholder-shown) + label,
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .wpcf7-form-control-wrap textarea:not(:placeholder-shown) + label {
+  top: -3px;
+  font-size: 12px;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form input[type="submit"] {
+  background-color: #11749e;
+  border: unset;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 20px 70px;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form input[type="submit"]:not(:hover) {
+  background-color: #11749e;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form input[type="submit"]:hover {
+  background-color: #0c5270;
+}
+
+html body .elementor-section-wrap .elementor-element-3aec5b2 form .ajax-loader {
+  position: absolute;
+  top: calc(50% - 12px);
+}
+
+html body #scroll-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #11749e;
+  z-index: 10;
+  font-size: 28px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+  padding: 18px;
+}
+
+html body #scroll-top i {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 1em;
+  height: 1em;
+  display: block;
+}
+
+html body #scroll-top:hover {
+  background-color: #0c5270;
+}
+
+html body #scroll-top:hover i {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+@media screen and (max-width: 1200px) {
+  html
+body
+.elementor-section-wrap
+.elementor-element-b411848
+> .elementor-container
+.recent-posts
+.recent-post {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+  }
+  html
+body
+.elementor-section-wrap
+.elementor-element-b411848
+> .elementor-container
+.recent-posts
+.recent-post .recent-post-content {
+    padding: 60px 30px;
+    max-width: 600px;
+    width: unset;
+  }
+  html
+body
+.elementor-section-wrap
+.elementor-element-b411848
+> .elementor-container
+.recent-posts
+.recent-post .recent-post-thumbnail img {
+    max-width: unset !important;
+    width: 100% !important;
+  }
+  html
+body
+.elementor-section-wrap
+.elementor-element-b411848
+> .elementor-container
+.recent-posts
+.recent-post:nth-child(2n) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  html
+body
+.elementor-section-wrap
+.elementor-element-b411848
+> .elementor-container
+.recent-posts
+.recent-post:nth-child(2n) .recent-post-content {
+    padding: 60px 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  html body .elementor-section-wrap .elementor-element-f336667 h2 {
+    font-size: 16vw;
+  }
+  html body .elementor-section-wrap .elementor-element-f336667 h3 {
+    font-size: 3vw;
+    letter-spacing: 1.7vw;
+    text-indent: 12px;
+  }
+  html body .elementor-section-wrap .elementor-element-f336667 .elementor-icon {
+    margin-top: -6px;
+  }
+  html body .elementor-section-wrap .elementor-element-3aec5b2 form input[type="submit"] {
+    padding: 18px 60px !important;
+  }
+  html body .elementor-section-wrap .elementor-element-3aec5b2 form .form-input {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .elementor-section-wrap .elementor-element-3aec5b2 form .form-input .form-field {
+    width: 100%;
+  }
+  #scroll-top {
+    display: none !important;
+  }
+}
+
+@-webkit-keyframes bounceArrow {
+  0% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+  90% {
+    -webkit-transform: translateY(9px);
+            transform: translateY(9px);
+  }
+  100% {
+    -webkit-transform: translateY(9px);
+            transform: translateY(9px);
+  }
+}
+
+@keyframes bounceArrow {
+  0% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+  90% {
+    -webkit-transform: translateY(9px);
+            transform: translateY(9px);
+  }
+  100% {
+    -webkit-transform: translateY(9px);
+            transform: translateY(9px);
+  }
+}
